@@ -7,13 +7,15 @@ my_favourite_films = [
     "The Lord of the Rings: The Return of the King",
     "Pulp Fiction",
     "The Good, the Bad and the Ugly",
-    "The Matrix",
-]
-profile_info = ("michel", "michel@gmail.com", "12345678")
-marks = {
-    "John": 4,
-    "Sergio": 3,
-}
-collection_of_coins = {1, 2, 25}
+    "The Matrix",]
+profile_info = ("michel", "michel#")
+user_data = {"id": 1, "role": "admin"}
+unique_numbers = {1, 2, 3}
 
-# write your code here
+
+sorted_variables = {
+    "mutable": [my_favourite_films, user_data, unique_numbers],
+    "immutable": [lucky_number, pi, one_is_a_prime_number, name, profile_info],}
+
+
+print(sorted_variables)
